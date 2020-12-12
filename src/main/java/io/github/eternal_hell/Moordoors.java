@@ -30,10 +30,10 @@ public class Moordoors implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Moordoors v" + VERSION + "Thank you for using our mods! :D");
+		LOGGER.info("Moordoors v" + VERSION + " Thank you for using our mods! :D");
 		LOGGER.info("Registering blocks");
-		ArtificeRegistrar.register();
 		BlockRegistrar.registerBlocks();
+		ArtificeRegistrar.register();
 		LOGGER.info("Moordoors has loaded successfully!");
 	}
 }
